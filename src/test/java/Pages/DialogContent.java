@@ -45,12 +45,14 @@ public class DialogContent extends Parent{
     @FindBy(xpath = "//div[text()='Group161']")
     public WebElement dogrulama1;
 
-
     @FindBy(xpath = "//div[text()='Group162']")
     public WebElement dogrulama2;
 
     @FindBy(xpath = "//span[text()='Required']")
     public WebElement dogrulama3;
+
+    @FindBy(css = "div[class='orangehrm-header-container']>button")
+    public WebElement addBttn2;
 
 
 
